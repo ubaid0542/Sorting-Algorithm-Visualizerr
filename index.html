@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorting Algorithm Visualizer</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="ResponsiveStyle.css">
+</head>
+
+<body>
+
+<div id="main">
+    <div id="headingContainer">
+        <h1>Sorting Algorithm Visualizer</h1>
+    </div>
+    <div id="container">
+    <div id="controls">
+        <div id="input_value">
+            <input type="text" id="numberInput" placeholder="Enter numbers separated by commas">
+            <div id="inputBtn">
+                <button onclick="setArrayFromInput()">Set Array</button>
+                <button onclick="toggleStyle()">Switch Style</button>
+            </div>       
+        </div>
+        <div id="selection">
+            <label><span>Speed: </span><input type="range" id="speed" min="50" max="1000" value="300"></label>
+            <div id="buttons">
+                <button onclick="startSort('bubble')">Bubble Sort</button>
+                <button onclick="startSort('selection')">Selection Sort</button>
+                <button onclick="startSort('insertion')">Insertion Sort</button>
+                <button onclick="startSort('merge')">Merge Sort</button>
+                <button onclick="startSort('quick')">Quick Sort</button>
+                <button onclick="startSort('tim')">TimSort</button>
+            </div>
+            <div id="array-container"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

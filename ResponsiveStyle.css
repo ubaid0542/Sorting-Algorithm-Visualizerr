@@ -1,0 +1,73 @@
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    #input_value {
+        flex-direction: column;
+        gap: 10px;
+        padding: 4vw 2vw;
+    }
+    #numberInput {
+        width: 60vw;
+        height: 7vw;
+        font-size: 3.2vw;
+    }
+    #inputBtn {
+        display: flex;
+        gap: 10px;
+    }
+    button {
+        width: 28vw;
+        height: 7vw;
+        font-size: 3.2vw;
+    }
+    #buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    h1 {
+        width: 90%;
+        font-size: 8vw;
+    }
+    #array-container {
+        gap: 3px;
+        height: 200px;
+    }
+    .bar {
+        width: 10px;
+    }
+    .box {
+        width: 28px;
+        height: 28px;
+        font-size: 3vw;
+    }
+    #speed{
+        max-width: 25vw;
+    }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    #numberInput {
+        width: 55vw;
+        height: 8vw;
+        font-size: 3vw;
+    }
+    button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+    .bar {
+        width: 8px;
+    }
+    #array-container {
+        height: 180px;
+    }
+    h1 {
+        font-size: 7vw;
+        width: 95%;
+    }
+}
