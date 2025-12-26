@@ -46,23 +46,35 @@ This project helps learners **see, hear, and understand** how popular sorting al
 
 ---
 
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure  
+- **CSS3** – Styling & responsiveness  
+- **JavaScript (ES6)** – Logic, animation, sound  
+
+---
+
+## 📱 Responsive Design
+
+- Works smoothly on **desktop, tablet, and mobile**
+- Adaptive buttons, bars, and text size
+- Touch-friendly controls
+
+---
+
+
 ## 📸 Screenshots
 
 > Below are some previews of the Sorting Algorithm Visualizer.
 
 ### 🧱 Box Style Visualization
-![Box Style View](screenshots/box-view.png)
+![Box Style View](Screenshort/box.png)
 
 ### 📊 Bar Style Visualization
-![Bar Style View](screenshots/bar-view.png)
+![Bar Style View](Screenshort/Bar.png)
 
 ### ⚙️ Algorithm in Action
-![Sorting in Progress](screenshots/sorting-animation.png)
+![Sorting in Progress](Screenshort/Swap_Visualize.png)
 
-> 📌 **Note:**  
-> Create a folder named **`screenshots`** in your project root and add images with the same names.
 
----
-
-## 📂 Project Structure
 
