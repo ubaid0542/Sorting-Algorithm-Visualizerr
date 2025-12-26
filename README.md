@@ -76,5 +76,8 @@ This project helps learners **see, hear, and understand** how popular sorting al
 ### ⚙️ Algorithm in Action
 ![Sorting in Progress](Screenshort/Swap_Visualize.png)
 
+## 🌐 Live Project
+https://ubaid0542.github.io/Sorting-Algorithm-Visualizerr/
+
 
 
